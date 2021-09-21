@@ -1,0 +1,61 @@
+html,body {
+  background: black;
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3.6rem;
+  letter-spacing: 13px;
+  margin-bottom: 7px;
+}
+
+p, div {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.home {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.is-active {
+  font-weight: bold;
+}
+
+.slogan {
+  font-weight: lighter;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 2em;
+}
+
+.location {
+  display: block;
+  margin-top: 7px;
+}
+
+.footer {
+  background-color: black;
+  position: fixed;
+  padding: 0.5rem;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footerLinks a, a:hover {
+  margin: 1vh;
+  text-decoration: none;
+  color: white;
+  cursor:pointer;
+}
