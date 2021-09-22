@@ -1,4 +1,5 @@
 import React from 'react';
+import Typed from "typed.js";
 
 const HomePage = () => (
 	<div className="home">
@@ -6,6 +7,7 @@ const HomePage = () => (
 			<div className="slogan">
 				<div className="word"><span className="myWord">Web Developer</span>
 					<div className="cursor"></div>
+					<Typed strings={textLines} typeSpeed={60} />
 				</div>
 			</div>
 			<div className="location">

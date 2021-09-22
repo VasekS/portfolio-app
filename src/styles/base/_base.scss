@@ -31,6 +31,15 @@ p, div {
   font-weight: bold;
 }
 
+.header {
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.header a {
+  margin: 1vh;
+}
+
 .slogan {
   font-weight: lighter;
   color: white;
@@ -58,4 +67,8 @@ p, div {
   text-decoration: none;
   color: white;
   cursor:pointer;
+}
+
+.footerLinks a {
+  font-size: 1.5em;
 }
