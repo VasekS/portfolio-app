@@ -1,20 +1,23 @@
 import React from 'react';
-import Typed from "typed.js";
+import { render } from 'react-dom';
+import Typer from './Typer';
 
-const HomePage = () => (
-	<div className="home">
+class HomePage extends React.Component {
+  render() {
+    return (
+      <div className="home">
 		<h1>Vaclav Sekret</h1>
 			<div className="slogan">
-				<div className="word"><span className="myWord">Web Developer</span>
-					<div className="cursor"></div>
-					<Typed strings={textLines} typeSpeed={60} />
+				<div className="word"><Typer /><span className="myWord"></span>
 				</div>
 			</div>
 			<div className="location">
 				<i className="fa fa-map-marker"></i>
 				<span className="myWord"> LOS ANGELES</span>
 			</div>
-	</div>
-);
+		</div>
+		);
+	}
+};
 
 export default HomePage;
