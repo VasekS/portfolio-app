@@ -29,9 +29,9 @@ p, div {
 
 .is-active {
   font-weight: bold;
-  color: #F5D300 !important;
+  color: #cfb53b !important;
   transition: all 1s ease-in-out;
-  text-decoration-color: rgba(245, 211, 0, 1) !important;
+  text-decoration-color: rgba(207, 181, 59, 1) !important;
 }
 
 .nav {
@@ -57,8 +57,8 @@ p, div {
 }
 
 .menuItems a:hover {
-  color: #F5D300;
-  text-decoration-color: rgba(245, 211, 0, 1);
+  color: #cfb53b;
+  text-decoration-color: rgba(207, 181, 59, 1);
   text-underline-offset: 0.4em;
 }
 
@@ -91,4 +91,26 @@ p, div {
   color: white;
   cursor:pointer;
   font-size: 1.2em;
+}
+
+.container {
+  display: flex;
+  padding: 0 55px;
+  // padding-bottom: 1vh;
+}
+
+.container:hover .item {
+  transform: translateX(-25%);
+}
+
+.item:hover ~ .item {
+  transform: translateX(25%);
+}
+
+.item {
+  background: green;
+  flex: 0 0 19.7%;
+  text-align: center;
+  margin: 0 2px;
+  transition: transform 300ms ease 100ms;
 }
