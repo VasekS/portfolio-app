@@ -95,8 +95,8 @@ p, div {
 
 .container {
   display: flex;
-  padding: 0 55px;
-  // padding-bottom: 1vh;
+  padding-top: 5vh;
+  justify-content: center;
 }
 
 .container:hover .item {
@@ -108,9 +108,22 @@ p, div {
 }
 
 .item {
-  background: green;
   flex: 0 0 19.7%;
-  text-align: center;
-  margin: 0 2px;
   transition: transform 300ms ease 100ms;
+  margin: 0 2px;
+  position: relative;
+  background: green;
+
+  img {
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+  }
+}
+
+.item:hover {
+  transform: scale(1.5) !important;
+}
+
+.content {
 }
