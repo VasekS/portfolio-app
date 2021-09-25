@@ -93,29 +93,42 @@ p, div {
   font-size: 1.2em;
 }
 
-.container {
+.content {
   display: flex;
-  padding-top: 5vh;
+  flex-wrap: wrap;
+  padding: 80px calc((100% - (292px * 3)) / 2);
+  justify-items: center;
   justify-content: center;
 }
 
-.container:hover .item {
-  transform: translateX(-25%);
-}
-
-.item:hover ~ .item {
-  transform: translateX(25%);
-}
-
 .item {
-  flex: 0 0 19.7%;
+  margin: 10px;
+  width: 272px;
+  height: 215px;
+  position: relative;
   transition: transform 300ms ease 100ms;
-  margin: 0 3px;
+  background-color: #191919;
+}
+
+.item img {
+  height: 75%;
+  width: 100%;
+}
+
+.item a {
+  text-decoration: none;
 }
 
 .item:hover {
-  transform: scale(1.5) !important;
+  transform: scale(1.1) !important;
 }
 
-.content {
+.container {  
+  padding: 1px 7px; 
+  color: white;
+}
+
+.container p {
+  font-size: 12px;
+  font-weight: 400; 
 }
