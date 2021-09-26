@@ -99,6 +99,7 @@ p, div {
   padding: 60px calc((100% - (294px * 3)) / 2);
   justify-items: center;
   justify-content: center;
+  padding-bottom: 8vh;
 }
 
 .item {
@@ -137,4 +138,25 @@ p, div {
 .container p {
   font-size: 12px;
   font-weight: 400; 
+}
+
+//mobile
+@media (min-width: 320px) and (max-width: 480px) {
+  .slogan div {
+    font-size: .9rem;
+  }
+  .slogan {
+    letter-spacing: 5px;
+  }
+  .home {
+    left: 0;
+    transform: none;
+    text-align: none;
+  }
+  .footer {
+    padding-bottom: 2vh;
+  }
+  .container {
+    text-align: center;
+  }
 }
