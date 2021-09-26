@@ -96,7 +96,7 @@ p, div {
 .content {
   display: flex;
   flex-wrap: wrap;
-  padding: 80px calc((100% - (292px * 3)) / 2);
+  padding: 60px calc((100% - (294px * 3)) / 2);
   justify-items: center;
   justify-content: center;
 }
@@ -107,7 +107,8 @@ p, div {
   height: 215px;
   position: relative;
   transition: transform 300ms ease 100ms;
-  background-color: #191919;
+  background-color: #0c0c0c;
+  border: thin solid rgba(50, 50, 50, .3);
 }
 
 .item img {
