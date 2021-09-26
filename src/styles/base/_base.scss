@@ -120,6 +120,11 @@ p, div {
   text-decoration: none;
 }
 
+.item i {
+  font-style: normal;
+  color: #cfb53b;
+}
+
 .item:hover {
   transform: scale(1.1) !important;
 }
