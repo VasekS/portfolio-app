@@ -160,3 +160,13 @@ p, div {
     text-align: center;
   }
 }
+
+//mobile landscape
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .home {
+    bottom: 17%;
+  }
+  .slogan div {
+    font-size: 1rem;
+  }
+}
