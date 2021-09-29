@@ -1,26 +1,28 @@
 # portfolio-app
 Portfolio website using React app packaged using Docker and deployable to Google Cloud Provider
 
-Getting Started
+[live site](https://vaclavsekret.dev)
+
+<h1>Getting Started</h1>
 
 
 Clone the project:
 git clone https://github.com/VasekS/portfolio-app.git
 
 Navigate into the directory:
-cd portfolio-app
+`<addr>`cd portfolio-app
 
 Install node modules:
-npm install
+`<addr>`npm install
 
 Run the app locally:
-npm start
+`<addr>`npm start
 
 Build the docker image:
-docker build -t portfolio-app:latest .
+`<addr>`docker build -t portfolio-app:latest .
 
 Run the docker image:
-docker run -p 8080:443 portfolio-app:latest
+`<addr>`docker run -p 8080:443 portfolio-app:latest
 
 Navigate to the url in your browser:
-http://localhost:8080
+`<addr>`http://localhost:8080
