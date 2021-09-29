@@ -1,4 +1,3 @@
-# portfolio-app
 Portfolio website using React app packaged using Docker and deployable to Google Cloud Provider: [Live Site](https://vaclavsekret.dev)
 
 <h1>Getting Started</h1><br />
