@@ -6,7 +6,7 @@ class ProjectsPage extends React.Component {
     return (
     	<div className="content">
 	      	<div className="item">
-	      		<a rel="noopener noreferrer" href="https://www.playlistnetflix.com/home/" target="_blank" title="Open Playlist site in a new tab">
+	      		<a rel="noopener noreferrer" href="https://www.playlistnetflix.com/" target="_blank" title="Open Playlist site in a new tab">
 	      			<img src="images/playlist_image.jpg" alt="Playlist | Netflix Image"/>
 	      			<div className="container">
 	      				<h4>Playlist <i>|</i> Netflix</h4>
